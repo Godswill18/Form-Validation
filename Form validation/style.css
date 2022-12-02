@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body{
+    background: linear-gradient(
+       105deg,
+       #88beee ,
+       #0a2e73
+   );
+  }
+
+  h1 {
+    text-align: center;
+  }
+  svg{
+    width: 20px;
+  }
+
+  form{
+
+  border-radius: 50px;
+    width: 700px;
+    background: white;
+    padding: 25px;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+
+   
+    font-weight: 50;
+    text-align: center;
+    font-size: 25px;
+   
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    
+
+   
+   
+   
+  }
+  
+ 
+  
+  .registration_form{
+    border-radius: 5px;
+    width: 400px;
+    background: white;
+    padding: 25px;
+  }
+  
+  
+  
+  .form_wrap{
+    margin-top: 35px;
+  }
+  
+  .form_wrap .input_wrap{
+    margin-bottom: 15px;
+  
+    
+  }
+  
+  .form_wrap .input_wrap:last-child{
+    margin-bottom: 0;
+  }
+  
+  .form_wrap .input_wrap label{
+    margin-bottom: 3px;
+    color: #1a1a1f;
+    display: block;
+  }
+  
+  .form_wrap .input_grp{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form_wrap .input_grp  input[type="text"]{
+    width: 165px;
+  }
+  
+  .form_wrap  input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1.3px solid #9597a6;
+  }
+  
+  .form_wrap  input[type="text"]:focus{
+    border-color: #063abd;
+  }
+  
+  .form_wrap ul{
+    padding: 8px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border:1px solid rgb(115, 185, 235);
+    width:70%;
+    background: rgb(206, 238, 242);
+    margin-left: 15%;
+  }
+  
+  .form_wrap ul li:first-child{
+    margin-right: 15px;
+  }
+  
+
+  
+input{
+    padding: 8px 8px;
+}
+  
+  /* Submit Button */
+  #submit{
+    font-size:17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 40%;
+    background: #0d6ad7;
+    padding: 10px;
+    border: 0;
+    color:rgb(39, 31, 80);
+  }
+  
+  /* Button Hover effect */
+  #submit:hover{
+    background: #596291;
+  }
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="page2.html">
+    
+</head>
+<body>
+    <h1>Login</h1>
+    <br>
+    <form id="form"  method="GET" >
+        <label for="fName">FIRST NAME:</label> <input id="fName" type="textbox" placeholder="First Name">
+        
+   
+        <br><label for="sName">SURNAME:</label>
+        <input id="sName" type="textbox" placeholder="Surname">
+        
+
+       <br> <label for="email">EMAIL:</label>
+        <input id="email" type="email" placeholder="Email">
+        
+
+       <br> <label for="dob">DATE OF BIRTH:</label>
+        <input id="dob" type="date" min="1999-01-01">
+        
+
+       <br> <label for="select">STATE OF ORIGIN:</label>
+        <select id="select" >
+            <option value="Edo state">Edo State</option>
+            <option value="Lagos State" selected>Lagos State</option>
+            <option value="Ogun state">Osun State</option>
+            <option value="Edo state">Ogun State</option>
+            <option value="Benue state">Benue State</option>
+            <option value="Kano state">Kano State</option>
+            <option value="Delta state">Delta State</option>
+            <option value="Rivers state">Rivers State</option>
+            <option value="Imo state">Imo State</option>
+            <option value="Enugu state">Edo State</option>
+        </select>
+
+       <br> <label for="password">PASSWORD:</label>
+        <input id="password" type="password" placeholder="Password" >
+       
+        
+        <br><label for="cPassword"> CONFIRM PASSWORD:</label>
+        <input id="cPassword" type="password" placeholder="Confirm password">
+        
+       <br> <label for="check"> I agree to the terms and condition of this website</label> <input id="check" type="checkbox" >
+        
+       <br> <input id="submit_btn" type="submit" value="Register now"  >
+    </form>
+   
+
+    <script src="back end.js" ></script>
+</body>
+</html>
